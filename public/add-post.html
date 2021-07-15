@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Topic</title>
+  <link
+    href="https://fonts.googleapis.com/css?family=Spicy+Rice&display=swap&family=Karla:400,700|Rubik:400,400i,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <header class="py-3 mb-3">
+    <div class="flex-row justify-space-between align-center container-fluid mx-auto">
+      <a href="/">
+        <h1 class="text-light bg-dark py-3 px-4 logo round-25-80">Social Net:worker</h1>
+      </a>
+
+      <h3 class="text-light bg-dark p-3 round-25-80">
+        Create Your Own Post!
+      </h3>
+    </div>
+  </header>
+
+  <main class="container-fluid flex-row mx-auto justify-space-between">
+    <div class="col-12 py-3 px-4 my-4 bg-dark round-25-80">
+      <h2 class="text-light">Create new study topics that will accentuate your coding journey(and your classmate's)</h2>
+    </div>
+
+    <section class="bg-dark p-3 col-12 col-lg-8 mb-3 round-25-80">
+      <h2 class="text-light ">You can create a topic!</h2>
+      <div class="col-12 col-lg-6 bg-dark p-3 mb-3">
+        <div class="form-container">
+          <form id="Post-form">
+            <div class="mb-2">
+              <label for="post-name" class="form-label">Post Name</label>
+              <input type="text" id="post-name" name="post-name" class="form-input" placeholder="Enter Post Name"
+                required />
+            </div>
+            <div class="mb-2">
+              <label for="created-by" class="form-label">Who's Beautiful Idea is This?</label>
+              <input type="text" id="created-by" name="created-by" class="form-input" placeholder="Give us your name"
+                required />
+            </div>
+            <div class="mb-2">
+              <label for="post-type" class="form-label">Post Type (select from dropdown)</label>
+              <select id="post-type" class="form-input">
+                <option value="Article">Article</option>
+                <option value="Text">Text</option>
+                <option value="Photo">Photo</option>
+                <option value="Video">Video</option>
+                <option value="Study Locale">Study Locale</option>
+              </select>
+            </div>
+            <h3 class="text-tertiary">Choose your languages</h3>
+            <div class="flex-row justify-space-between">
+              <div class="col-auto">
+                <div>
+                  <input type="checkbox" id="html" name="language" value="Html">
+                  <label for="html">HTML</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="css" name="language" value="Css">
+                  <label for="css">CSS</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="javascript" name="language" value="JavaScript">
+                  <label for="javascript">JavaScript</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="jquery" name="language" value="Jquery">
+                  <label for="jquery">jQuery</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="bootstrap" name="language" value="Bootstrap">
+                  <label for="bootstrap">Bootstrap</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="momentjs" name="language" value="Momentjs">
+                  <label for="momentjs">Moment.js</label>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div>
+                  <input type="checkbox" id="web-apis" name="language" value="Web-apis">
+                  <label for="web-apis">Web APIs</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="third-party-apis" name="language" value="Third-party-apis">
+                  <label for="third-party-apis">3rd Party APIs</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="client-side-apis" name="language" value="client-side-apis">
+                  <label for="client-side-apis">Client Side APIs</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="server-side-apis" name="language" value="server-side-apis">
+                  <label for="server-side-apis">Server Side APIs</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="python" name="language" value="Python">
+                  <label for="python">Python</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="angular" name="language" value="Angular">
+                  <label for="angular">Angular</label>
+                </div>
+              </div>
+
+              <div class="col-auto">
+                <div>
+                  <input type="checkbox" id="mushrooms" name="language" value="Mushrooms">
+                  <label for="mushrooms">Mushrooms</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="olives" name="language" value="Olives">
+                  <label for="olives">Olives</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="beef" name="language" value="Beef">
+                  <label for="beef">Beef</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="pesto" name="language" value="Pesto">
+                  <label for="pesto">Pesto</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="squash" name="language" value="Squash">
+                  <label for="squash">Squash</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="eggplant" name="language" value="Eggplant">
+                  <label for="eggplant">Eggplant</label>
+                </div>
+              </div>
+
+              <!-- custom languages and/or topic -->
+              <div class="col-auto">
+                <div id="custom-languages-list"></div>
+              </div>
+            </div>
+
+            <div class="w-100 display-block"></div>
+
+            <label for="new-language" class="form-label">Add another language to the topic!</label>
+            <input type="text" id="new-language" name="new-language" class="form-input" placeholder="Add Language" />
+
+            <button type="button" id="add-language" class="btn">Add Language</button>
+
+            <div class="my-4 border-light-top display-block w-100"></div>
+
+            <button type="submit" class="btn w-100 m-auto">Submit Topic</button>
+          </form>
+        </div>
+    </section>
+
+    <section class="bg-dark p-3 col-12 col-lg-4 mb-3 round-25-80 min-60-vh">
+      <h2 class="text-light px-2">Looking to do something else?</h2>
+      <nav>
+        <a class="btn display-block round-25-80" href="/">See All Posts.</a>
+      </nav>
+    </section>
+
+    </div>
+  </main>
+  <script src="./assets/js/add-Post.js"></script>
+  <script src="./assets/js/idb.js"></script>
+</body>
+
+</html>
