@@ -19,6 +19,8 @@
   "homepage": "https://github.com/JosephSuvak/The-Social-Network#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.13.2"
+    "handlebars-react": "0.0.16",
+    "mongoose": "^5.13.2",
+    "react-document-meta": "^3.0.0-beta.2"
   }
 }
