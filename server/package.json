@@ -20,6 +20,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.13.3"
   },
+  "homepage": "https://github.com/wberry86/group-project-3#readme",
   "devDependencies": {
     "nodemon": "^2.0.12"
   }

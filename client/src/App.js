@@ -1,11 +1,22 @@
+import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@apollo/client';
 import React from 'react';
 import './App.css';
 import Main from './Components/Main';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from  'react-router-dom';
 
+const httpLink = createHttpLink({
+  uri: 'http://localhost:3001/graphql',
+});
+
+const client = new ApolloClient({
+  link: httpLink,
+  cache: new InMemoryCache(),
+});
+
 function App() {
   return (
+    <ApolloProvider client={client}>
     <div style={{height: '300px', position: 'relative'}}>
     <Layout fixedHeader>
       
@@ -31,6 +42,7 @@ function App() {
         </Content>
     </Layout>
 </div>
+</ApolloProvider>
   );
 }
 

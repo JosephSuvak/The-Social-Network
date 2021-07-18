@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@apollo/client": "^3.3.21",
     "@apollo/react-hooks": "^4.0.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -36,6 +37,7 @@
       "not dead",
       "not op_mini all"
     ],
+    "homepage": "https://github.com/wberry86/group-project-3#readme",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
