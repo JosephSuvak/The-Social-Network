@@ -12,7 +12,7 @@ function Nav() {
 <header>
   <h2>
     <a href="/">
-      <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+      <span role="img" aria-label="camera"> 📸</span> Social Networker
     </a>
   </h2>
   <nav>
@@ -23,7 +23,12 @@ function Nav() {
         </a>
       </li>
       <li>
-        <span>Topic </span>
+        <span>Topics </span>
+      </li>
+      <li className="mx-2">
+        <a href="#about">
+          Posts
+        </a>
       </li>
     </ul>
   </nav>
