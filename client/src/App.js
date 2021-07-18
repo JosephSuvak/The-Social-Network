@@ -30,7 +30,7 @@ function App() {
         </Header>
         <Drawer title="Social Networker">
             <Navigation>
-            <Link to="/posts">Posts</Link>
+                <Link to="/posts">Posts</Link>
                 <Link to="/tips">Tips</Link>
                 <Link to="/whiteboard">Whiteboard</Link>
                 <Link to="/timetracker">Time Tracker</Link>

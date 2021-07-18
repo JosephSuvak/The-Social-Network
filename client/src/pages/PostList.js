@@ -1,6 +1,6 @@
 import { useQuery } from '@apollo/client';
 import { QUERY_COMMENTS } from '../utils/queries';
-import CommentList from '../Components/CommentList';
+import Posts from '../Components/Posts';
 
 const PostList = () => {
     // use useQuery hook to make query request
@@ -16,7 +16,7 @@ const PostList = () => {
             {loading ? (
               <div>Loading...</div>
             ) : (
-              <CommentList comments={comments} title="A list of current posts..." />
+              <Posts comments={comments} title="Current Posts:" />
             )}
           </div>
         </div>
