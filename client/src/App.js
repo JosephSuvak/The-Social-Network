@@ -6,9 +6,6 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from  'react-router-dom';
 import ApolloClient from 'apollo-boost';
 
-// const httpLink = createHttpLink({
-//   uri: 'http://localhost:3001/graphql',
-// });
 
 const client = new ApolloClient({
   request: operation => {
@@ -23,10 +20,7 @@ const client = new ApolloClient({
   uri: '/graphql'
 });
 
-// const client = new ApolloClient({
-//   link: httpLink,
-  
-// });
+
 
 function App() {
   return (
