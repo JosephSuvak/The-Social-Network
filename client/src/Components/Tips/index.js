@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class TimeTracker extends Component {
+class Tips extends Component {
     render() {
         return(
             <div>
-                <h1>Time-Tracker could go here</h1>
+                <h1>Write your Tips here</h1>
             </div>
         )
     }
 }
 
-export default TimeTracker;
+export default Tips;
