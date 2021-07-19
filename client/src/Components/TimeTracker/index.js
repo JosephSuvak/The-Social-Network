@@ -4,7 +4,7 @@ class TimeTracker extends Component {
     render() {
         return(
             <div>
-                <h1>Time-Tracker could go here</h1>
+                <h1>Track your time here</h1>
             </div>
         )
     }

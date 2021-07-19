@@ -17,23 +17,23 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
-    <div style={{height: '300px', position: 'relative'}}>
+    <div style={{height: '100vh', position: 'relative'}}>
     <Layout fixedHeader>
       
         <Header title={<Link to="/" className="homeLink"><span><span style={{ color: '#ddd' }}>The / </span><strong>Social Networker</strong></span></Link>}>
             <Navigation>
                 <Link to="/posts">Posts</Link>
-                <Link to="/tips">Tips</Link>
+                <Link to="/addpost">Add Post</Link>
                 <Link to="/whiteboard">Whiteboard</Link>
-                <Link to="/timetracker">Time Tracker</Link>
+                <Link to="/timetracker">Time-Tracker</Link>
             </Navigation>
         </Header>
         <Drawer title="Social Networker">
             <Navigation>
                 <Link to="/posts">Posts</Link>
-                <Link to="/tips">Tips</Link>
+                <Link to="/addpost">Add Post</Link>
                 <Link to="/whiteboard">Whiteboard</Link>
-                <Link to="/timetracker">Time Tracker</Link>
+                <Link to="/timetracker">Time-Tracker</Link>
             </Navigation>
         </Drawer>
         <Content>

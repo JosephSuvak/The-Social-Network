@@ -16,3 +16,12 @@ code {
   text-decoration: none;
   color: white;
 }
+
+.text-link {
+  color: aliceblue;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: inherit;
+}
