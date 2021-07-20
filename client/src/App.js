@@ -30,7 +30,7 @@ function App() {
             <Navigation>
                 <Link to="/media">Media</Link>
                 <Link to="/posts">Posts</Link>
-                <Link to="/whiteboard">Whiteboard</Link>
+                <Link to="/sketchpad">Sketch Pad</Link>
                 <Link to="/profile">Profile</Link>
             </Navigation>
         </Header>
@@ -38,7 +38,7 @@ function App() {
             <Navigation>
             <Link to="/media">Media</Link>
                 <Link to="/posts">Posts</Link>
-                <Link to="/whiteboard">Whiteboard</Link>
+                <Link to="/sketchpad">Sketch Pad</Link>
                 <Link to="/profile">Profile</Link>
             </Navigation>
         </Drawer>
