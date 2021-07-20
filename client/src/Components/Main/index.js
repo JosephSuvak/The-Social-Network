@@ -1,7 +1,7 @@
 import React from 'react';
 import LandingPage from '../Landing';
 import PostCards from '../PostCards';
-import Whiteboard from '../Whiteboard';
+import SketchDemo from '../Whiteboard';
 //import Tips from '../Tips';
 import { Switch, Route } from 'react-router-dom';
 import Profile from '../../pages/Profile';
@@ -18,7 +18,7 @@ const Main = () => (
         <Route exact path="/" component={LandingPage} />
         <Route path="/media" component={PostCards} />
         <Route path="/posts" component={PostList} />
-        <Route path="/whiteboard" component={Whiteboard} />
+        <Route path="/whiteboard" component={SketchDemo} />
         <Route path="/profile" component={Profile} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />

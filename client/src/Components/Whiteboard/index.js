@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import {SketchField, Tools} from 'react-sketch';
 
-class Whiteboard extends Component {
-    render() {
-        return(
-            <div>
-                <h1>This is the whiteboard</h1>
-            </div>
+class SketchFieldDemo extends Component {
+     render() {
+        return (
+            <SketchField width='1024px' 
+                         height='768px' 
+                         tool={Tools.Pencil} 
+                         lineColor='black'
+                         lineWidth={3}/>
         )
-    }
+     }
 }
 
-export default Whiteboard;
+export default SketchFieldDemo;
