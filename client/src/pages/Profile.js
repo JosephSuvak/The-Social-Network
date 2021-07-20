@@ -35,7 +35,7 @@ const Profile = props => {
   if (!user?.username) {
     return (
       <h4>
-        You need to be logged in to see this. Use the navigation links above to sign up or log in!
+        You need to be logged in to access this page!!
       </h4>
     );
   }

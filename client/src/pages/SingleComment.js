@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-import ReactionList from '../components/ReactionList';
-import ReactionForm from '../components/ReactionForm';
+import ReactionList from '../Components/ReactionList';
+import ReactionForm from '../Components/ReactionForm';
 
 import Auth from '../utils/auth';
 import { useQuery } from '@apollo/react-hooks';
@@ -28,7 +28,7 @@ const SingleComment = props => {
           <span style={{ fontWeight: 700 }} className="text-light">
             {comment.username}
           </span>{' '}
-          comment on {comment.createdAt}
+          posted on {comment.createdAt}
         </p>
         <div className="card-body">
           <p>{comment.commentText}</p>

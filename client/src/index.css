@@ -1,10 +1,10 @@
 :root {
   --primary: #3015ce;
-  --secondary: #f7ee99;
+  --secondary: #ccdbe2;
   --tertiary: #b2c2c1;
   --quatrinary: #cadbda;
   --light: #e1f5f4;
-  --dark: #5a6699;
+  --dark: #5365b8;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
@@ -20,12 +20,34 @@
 
 html,
 body {
-  min-height: 100%;
+  min-height:100vw;
 }
 
 a:-webkit-any-link {
   text-decoration: none;
   color: inherit;
+}
+
+.welcome {
+  font-size: 700%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.home {
+  font-size: 200%;
+}
+
+.logout {
+  font-size: 200%;
+}
+
+.login {
+  font-size: 200%;
+}
+
+.signup {
+  font-size: 200%;
 }
 
 body {
