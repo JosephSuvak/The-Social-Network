@@ -28,18 +28,18 @@ function App() {
       
         <Header title={<Link to="/" className="homeLink"><span><span style={{ color: '#ddd' }}>The / </span><strong>Social Networker</strong></span></Link>}>
             <Navigation>
+                <Link to="/media">Media</Link>
                 <Link to="/posts">Posts</Link>
-                <Link to="/tips">Tips</Link>
                 <Link to="/whiteboard">Whiteboard</Link>
-                <Link to="/timetracker">Time Tracker</Link>
+                <Link to="/profile">Profile</Link>
             </Navigation>
         </Header>
         <Drawer title="Social Networker">
             <Navigation>
-            <Link to="/posts">Posts</Link>
-                <Link to="/tips">Tips</Link>
+            <Link to="/media">Media</Link>
+                <Link to="/posts">Posts</Link>
                 <Link to="/whiteboard">Whiteboard</Link>
-                <Link to="/timetracker">Time Tracker</Link>
+                <Link to="/profile">Profile</Link>
             </Navigation>
         </Drawer>
         <Content >

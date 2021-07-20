@@ -6,7 +6,7 @@ const typeDefs = gql`
     username: String
     email: String
     friendCount: Int
-    Comments: [Comment]
+    comments: [Comment]
     friends: [User]
   }
 

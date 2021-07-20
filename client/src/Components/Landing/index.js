@@ -1,23 +1,41 @@
-import React, { Component } from 'react';
-import { Cell, Grid } from 'react-mdl';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-class Landing extends Component {
-    render() {
-        return(
-            <div style= {{width:'100%', margin: 'auto'}}>
-                <h1>This is the landing page</h1>
-                <Grid className="landing-grid">
-                    <Cell col={12}>
-                        <img 
-                        alt="bulletinboard"
-                        src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1649&q=80"
-                        style={{maxWidth:'85%', textAlign:'center'}}></img>
-                    </Cell>
+import Auth from '../../utils/auth';
 
-                </Grid>
-            </div>
-        )
-    }
-}
+const Welcome = () => {
+  const logout = event => {
+    event.preventDefault();
+    Auth.logout();
+  };
 
-export default Landing;
+  return (
+    <header className="bg-secondary mb-4 py-2 flex-row align-center">
+      <div className="container flex-row justify-space-between-lg justify-center align-center">
+        <Link to="/">
+          <h1>Welcome</h1>
+        </Link>
+
+        <nav className="text-center">
+          {Auth.loggedIn() ? (
+            <>
+              <Link to="/profile">Home</Link>
+              <a href="/" onClick={logout}>
+                Logout
+              </a>
+            </>
+          ) : (
+            <>
+              <Link to="/login">Login</Link>
+              <br/>
+              <br/>
+              <Link to="/signup">Signup</Link>
+            </>
+          )}
+        </nav>
+      </div>
+    </header>
+  );
+};
+
+export default Welcome;
