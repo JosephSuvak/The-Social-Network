@@ -6,13 +6,13 @@ const typeDefs = gql`
     username: String
     email: String
     friendCount: Int
-    Comments: [Comment]
+    comments: [Comment]
     friends: [User]
   }
 
-  type Thought {
+  type Comment {
     _id: ID
-    thoughtText: String
+    commentText: String
     createdAt: String
     username: String
     reactionCount: Int

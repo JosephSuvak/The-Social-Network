@@ -29,9 +29,9 @@ const commentSchema = new Schema({
   {
     toJSON: {
       virtuals: true,
-      getters: true
+      //getters: true
     },
-    id: false
+    //id: false
   }
 );
 
@@ -41,7 +41,7 @@ commentSchema.virtual('reactionCount').get(function () {
 })
 
 //create comment model...
-const Comment = model('Comment', commentSchema);
+const Comment = model('comment', commentSchema);
 
 //export comment model...
 module.exports = Comment;
