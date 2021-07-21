@@ -50,7 +50,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![markus-winkler-_nvKjg0aliA-unsplash](https://user-images.githubusercontent.com/76885757/125888374-37477b2c-cc49-4e9d-96c9-a2f46067a78e.jpg)
+![Screen Shot 2021-07-20 at 5 00 41 PM](https://user-images.githubusercontent.com/76885757/126399536-4a94bd1c-6102-4f88-9794-39e261756074.png)
+
+![Screen Shot 2021-07-20 at 5 00 53 PM](https://user-images.githubusercontent.com/76885757/126399574-c1f2ce29-c825-4cf6-9a56-f725de4e2597.png)
 
 The social network was created to suit you the bootcamp student. We felt that the future students would benefit from "the half blood prince book"-Harry Potter refrence. We are hoping that the Network helps you understand the quirks and tips of the bootcamp. Think of the network as our own reddit channel. 
 
@@ -86,6 +88,8 @@ Enjoy the benefits i wish this was a real thing when i was going through it.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
