@@ -4,12 +4,10 @@ import {SketchField, Tools} from 'react-sketch';
 class SketchFieldDemo extends Component {
      render() {
         return (
-            <SketchField width='100vw' 
-                         height='100vh'
-                         background = 'black' 
+            <SketchField width='1024px' 
+                         height='768px' 
                          tool={Tools.Pencil} 
-                         lineColor='white'
-                         backgroundColor = 'black'
+                         lineColor='black'
                          lineWidth={3}/>
         )
      }
