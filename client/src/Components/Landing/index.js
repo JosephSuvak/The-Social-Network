@@ -32,6 +32,9 @@ const Welcome = () => {
               <br/>
               <br/>
               <Link to="/signup" className="signup">Signup</Link>
+              <br/>
+              <br/>
+              <Link to="/ask-wayne" className="ask-wayne">Ask Wayne</Link>
             </>
           )}
         </nav>
