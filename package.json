@@ -23,6 +23,8 @@
   },
   "homepage": "https://social-networker.herokuapp.com/",
   "dependencies": {
-    "concurrently": "^6.2.0"
+    "apollo-server": "^3.0.2",
+    "concurrently": "^6.2.0",
+    "graphql": "^15.5.1"
   }
 }
