@@ -5,6 +5,7 @@ import Main from './Components/Main';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from  'react-router-dom';
 import { ApolloClient } from '@apollo/client';
+import {AskWayne} from '../../client/src/Components/Ask-Wayne'
 
 
 const httpLink = createHttpLink({
@@ -42,7 +43,7 @@ function App() {
                 <Link to="/posts">Posts</Link>
                 <Link to="/sketchpad">Sketch Pad</Link>
                 <Link to="/profile">Profile</Link>
-                <Link to="/askwayne">Ask Wayne</Link>
+                <Link to="/" component={AskWayne}>Ask Wayne</Link>
             </Navigation>
         </Header>
         <Drawer title="Social Networker">
@@ -51,7 +52,7 @@ function App() {
                 <Link to="/posts">Posts</Link>
                 <Link to="/sketchpad">Sketch Pad</Link>
                 <Link to="/profile">Profile</Link>
-                <Link to="/askwayne">Ask Wayne</Link>
+                <Link to="/" component={AskWayne}>Ask Wayne</Link>
             </Navigation>
         </Drawer>
         <Content >
