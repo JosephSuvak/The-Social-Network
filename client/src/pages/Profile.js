@@ -5,7 +5,7 @@ import AddPost from '../Components/AddPost';
 import Posts from '../Components/Posts';
 import FriendList from '../Components/FriendList';
 
-import { useQuery, useMutation } from '@apollo/react-hooks';
+import { useQuery, useMutation } from '@apollo/client';
 import { QUERY_USER, QUERY_ME } from '../utils/queries';
 import { ADD_FRIEND } from '../utils/mutations';
 import Auth from '../utils/auth';

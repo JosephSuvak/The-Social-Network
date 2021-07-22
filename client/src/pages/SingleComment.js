@@ -5,7 +5,7 @@ import ReactionList from '../Components/ReactionList';
 import ReactionForm from '../Components/ReactionForm';
 
 import Auth from '../utils/auth';
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import { QUERY_COMMENT } from '../utils/queries';
 
 const SingleComment = props => {

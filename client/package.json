@@ -1,16 +1,13 @@
 {
-  "name": "group-project-3",
+  "name": "the-social-network",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
   "dependencies": {
-    "@apollo/react-hooks": "^4.0.0",
+    "@apollo/client": "^3.3.21",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "apollo-boost": "^0.4.9",
     "graphql": "^15.5.1",
-    "graphql-tag": "^2.12.5",
     "jwt-decode": "^3.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -38,7 +35,7 @@
       "not dead",
       "not op_mini all"
     ],
-    "homepage": "https://github.com/wberry86/group-project-3#readme",
+    "homepage": "https://https://github.com/JosephSuvak/The-Social-Network#readme",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
