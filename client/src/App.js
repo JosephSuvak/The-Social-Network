@@ -5,7 +5,7 @@ import Main from './Components/Main';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import { Link } from  'react-router-dom';
 import { ApolloClient } from '@apollo/client';
-import {AskWayne} from '../../client/src/Components/Ask-Wayne'
+import {AskWayne} from '../../client/src/Components/Ask-Wayne/index'
 
 
 const httpLink = createHttpLink({
