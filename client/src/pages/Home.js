@@ -4,7 +4,7 @@ import CommentForm from '../components/CommentForm';
 import FriendList from '../components/FriendList';
 
 import Auth from '../utils/auth';
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import { QUERY_COMMENTS, QUERY_ME_BASIC } from '../utils/queries';
 
 const Home = () => {
