@@ -12,7 +12,6 @@ import NoMatch from '../../pages/NoMatch';
 import SingleComment from '../../pages/SingleComment';
 import ReactionForm from '../ReactionForm';
 import ReactionList from '../ReactionList';
-import AskWayne from '../Ask-Wayne'
 
 const Main = () => (
     <Switch>
@@ -26,7 +25,6 @@ const Main = () => (
         <Route exact path="/comment/:id" component={SingleComment} />
         <Route path="/reactionform" component={ReactionForm} />
         <Route path="/reactionlist" component={ReactionList} />
-        <Route path="/ask-wayne" component={AskWayne} />
         <Route component={NoMatch} />
     </Switch>
 )
