@@ -1,5 +1,5 @@
 {
-  "name": "group-project-3",
+  "name": "Social-Networker",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:3001/",
@@ -38,7 +38,7 @@
       "not dead",
       "not op_mini all"
     ],
-    "homepage": "https://github.com/wberry86/group-project-3#readme",
+    "homepage": "https://social-networker.herokuapp.com/",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
