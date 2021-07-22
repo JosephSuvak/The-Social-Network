@@ -34,7 +34,7 @@ const Welcome = () => {
               <Link to="/signup" className="signup">Signup</Link>
               <br/>
               <br/>
-              <Link to="https://google.com" className="ask-wayne">Ask Wayne</Link>
+              <Link to="/ask-wayne" className="ask-wayne">Ask Wayne</Link>
             </>
           )}
         </nav>
