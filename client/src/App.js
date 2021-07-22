@@ -43,7 +43,7 @@ function App() {
                 <Link to="/posts">Posts</Link>
                 <Link to="/sketchpad">Sketch Pad</Link>
                 <Link to="/profile">Profile</Link>
-                <Link to="/askwayne" component={AskWayne}>Ask Wayne</Link>
+                <Link to="/ask-wayne">Ask Wayne</Link>
             </Navigation>
         </Header>
         <Drawer title="Social Networker">
@@ -52,7 +52,7 @@ function App() {
                 <Link to="/posts">Posts</Link>
                 <Link to="/sketchpad">Sketch Pad</Link>
                 <Link to="/profile">Profile</Link>
-                <Link to="/askwayne" component={AskWayne}>Ask Wayne</Link>
+                <Link to="/ask-wayne" component={AskWayne}>Ask Wayne</Link>
             </Navigation>
         </Drawer>
         <Content >
