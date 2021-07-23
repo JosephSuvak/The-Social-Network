@@ -19,7 +19,7 @@ const Main = () => (
         <Route path="/media" component={PostCards} />
         <Route path="/posts" component={PostList} />
         <Route path="/sketchpad" component={SketchDemo} />
-        <Route path="/profile" component={Profile} />
+        <Route path="/profile/:username?" component={Profile} />
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route exact path="/comment/:id" component={SingleComment} />

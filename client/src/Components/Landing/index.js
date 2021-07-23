@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import landingImage from '../../assets/images/bulletin.jfif';
 
+
 import Auth from '../../utils/auth';
 
 const Welcome = () => {
